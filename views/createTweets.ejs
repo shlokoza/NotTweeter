@@ -1,0 +1,17 @@
+<!-- Linking the header from the partials -->
+<%- include('partials/header') %>
+
+<h1>Create a tweet here <%= name %>!</h1>
+
+<!-- Form to create and post the tweet -->
+<div class="card">
+    <h5 class="card-header">What's on your mind!?</h5>
+    <div class="card-body">
+        <form action="/createTweets/?name=<%= name %>&uname=<%= uname %>" method="POST">
+            <p id = "username" name = "username"></p>
+            <textarea rows="6" cols="105" id = 'tweet' name = 'tweet'></textarea><br><br>
+            
+            <button class="btn btn-primary btn-lg" type="submit">Post</button>
+        </form>
+    </div>
+  </div>
