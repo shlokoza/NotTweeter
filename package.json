@@ -2,11 +2,12 @@
   "name": "nottweeter",
   "version": "1.0.0",
   "engines": {
-    "node": "16.x"
+    "node": ">=10.0.0"
   },
   "description": "THIS IS NOT TWEETER.",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "devStart": "nodemon server.js"
   },
   "author": "",
