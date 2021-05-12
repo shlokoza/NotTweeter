@@ -15,7 +15,7 @@
         
             <h5 class = 'title'><%=  tweets.username  %> says...</h5>
             <p class = 'tweet'><a class = 'single' href = '/tweet/<%=  tweets._id  %>'><%=  tweets.tweet  %></a></p>
-            <h7 class = 'tweetTime' style="font-size:0.8vw;"><%=  Date(tweets.updatedAt)  %></h7>
+            <h7 class = 'tweetTime' style="font-size:0.8vw;"><%=  Date(tweets.createdAt)  %></h7>
             <hr>
     <%  })   %>
 
