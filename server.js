@@ -6,7 +6,7 @@ const path = require('path');
 const port = process.env.PORT || 3000;
 
 //Defining the database URL and connecting the database using mongoose.
-const url = "mongodb+srv://nottweeter:<nottweeter>@cluster0.tb84k.mongodb.net/nottweeter?retryWrites=true&w=majority";
+const url = "mongodb+srv://admin:<nottweeter>@cluster0.tb84k.mongodb.net/nottweeter?retryWrites=true&w=majority";
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => app.listen(port))
     .catch((err) => console.log(err));
