@@ -1,7 +1,6 @@
 # NotTweeter
 - This is a back-end web application for tweeter clone. (Still in progress...)
 
-- Check out this website on: https://nottweeter.herokuapp.com/
 
 - To run this website on your device:
   - Download the zip file on your device.
